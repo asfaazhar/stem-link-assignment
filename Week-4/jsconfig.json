@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"] //@ is pointing to src folder
+        }
+    }
+}
+
+// {
+//     "compilerOptions": {
+//       "baseUrl": "./", // Base directory for resolving paths
+//       "paths": {
+//         "@components/*": ["src/components/*"],
+//         "@utils/*": ["src/utils/*"]
+//       }
+//     },
+//     "include": ["src"] // Include the source folder
+//   }
+  
