@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .top {
+    position: fixed;
+    font-size: 35px;
+    margin-top: 30px;
+  }
+
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul{
+    display: inline-block;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .link {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 170px;
+  }
+
+  .shoppingCart {
+    text-align: right;
+    margin-right: 250px;
+    cursor: pointer;
+
+  }
+  .top, link {
+    cursor: pointer;
+    position: fixed;
+  } 
